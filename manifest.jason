@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Air Quality Notifier",
+  "version": "1.0",
+  "description": "Shows real-time air quality for your location using open data.",
+  "permissions": ["geolocation", "storage", "activeTab", "scripting"],
+  "host_permissions": ["https://api.openaq.org/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  }
+}
